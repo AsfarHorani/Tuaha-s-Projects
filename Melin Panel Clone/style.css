@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root {
+    --rootcolor: #634793;;
+  }
+
+body,html{
+    
+width: 100%;
+   font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.body-container, header{
+    padding: 30px 100px;
+}
+ul{
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    
+}
+
+p{
+    font-size: 20px;
+    color: #53537F;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #7858B2;
+    cursor: pointer;
+}
+
+/* header styling */
+header{
+
+    background-color: var(--rootcolor); 
+
+
+}
+
+
+
+ul>.items{
+    padding-left:10px ;
+    margin: 0 20px ;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    width: 60%;
+}
+
+
+
+
+.header-content{
+    padding: 40px 0;
+    display: flex;
+    color: whitesmoke;
+}
+
+
+.header-content > .info > h1{
+
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.header-content > .info{
+    padding-top: 20px;
+}
+.header-content > .info > p{
+   flex: 1;
+    padding-bottom: 40px;
+
+    font-size: 23px;
+}
+
+.button-container > .btn{
+   padding: 15px 40px  ;
+}
+
+.button-container > .view{
+    margin-left: 30px;
+}
+
+.button-container > .learn{
+
+background-color: white;
+color: var(--rootcolor);
+}
+
+
+/* //about1 */
+
+
+.about1-c{
+    margin: 80px 0 ;
+}
+
+.row{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box > .row{
+    justify-content:flex-start;
+
+}
+
+
+
+.about1 > .about1-text{
+  padding: 20px 70px;
+  text-align: center;
+}
+
+.about1-text > h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.about1-text > p{
+    padding: 40px 40px;
+    
+}
+
+.icons-container > img{
+    width: 50px;
+    padding: 0 10px 30px 0 ;
+}
+
+.boxes{
+    margin: 40px;
+}
+
+
+.box{
+flex-basis: 1;
+width: 300px;
+}
+
+.box > h4{
+margin: 20px 0;
+font-weight: 900;
+}
+
+.box> p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.fet-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fet-btn-container > .btn{
+
+    background-color: var(--rootcolor);
+    color: whitesmoke;
+    padding: 15px 20px;
+}
+
+.btn:hover{
+    background-color: #7858B2;
+    cursor: pointer;
+}
