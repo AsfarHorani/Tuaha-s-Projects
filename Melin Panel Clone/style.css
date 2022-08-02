@@ -1,194 +1,223 @@
-*{
+* {
     margin: 0;
     padding: 0;
-
 }
+
 :root {
-    --rootcolor: #634793;;
-  }
-
-body,html{
-    
-width: 100%;
-   font-family: 'Poppins', sans-serif;
-    
-
+    --rootcolor: #634793;
 }
 
-.body-container, header{
+body,
+html {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container,
+header {
     padding: 30px 100px;
 }
-ul{
+
+ul {
     list-style: none;
     color: whitesmoke;
     display: flex;
-    
 }
 
-p{
+p {
     font-size: 20px;
     color: #53537F;
 }
 
-a{
+h5 {
+    color: #53537F;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+a {
     text-decoration: none;
     color: whitesmoke;
 }
 
-.btn{
+.btn {
     padding: 10px 20px;
     border: 1px solid white;
     border-radius: 5px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #7858B2;
     cursor: pointer;
 }
 
+
 /* header styling */
-header{
 
-    background-color: var(--rootcolor); 
-
-
+header {
+    background-color: var(--rootcolor);
 }
 
-
-
-ul>.items{
-    padding-left:10px ;
-    margin: 0 20px ;
+ul>.items {
+    padding-left: 10px;
+    margin: 0 20px;
 }
 
-.topbar{
+.topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.right{
+.right {
     width: 60%;
 }
 
-
-
-
-.header-content{
+.header-content {
     padding: 40px 0;
     display: flex;
     color: whitesmoke;
 }
 
-
-.header-content > .info > h1{
-
+.header-content>.info>h1 {
     font-weight: 700;
     font-size: 60px;
     padding-bottom: 20px;
 }
 
-.header-content > .info{
+.header-content>.info {
     padding-top: 20px;
 }
-.header-content > .info > p{
-   flex: 1;
-    padding-bottom: 40px;
 
+.header-content>.info>p {
+    flex: 1;
+    padding-bottom: 40px;
     font-size: 23px;
 }
 
-.button-container > .btn{
-   padding: 15px 40px  ;
+.button-container>.btn {
+    padding: 15px 40px;
 }
 
-.button-container > .view{
+.button-container>.view {
     margin-left: 30px;
 }
 
-.button-container > .learn{
-
-background-color: white;
-color: var(--rootcolor);
+.button-container>.learn {
+    background-color: white;
+    color: var(--rootcolor);
 }
 
 
 /* //about1 */
 
-
-.about1-c{
-    margin: 80px 0 ;
+.about1-c,
+.about2-c {
+    margin: 80px 0;
 }
 
-.row{
-
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-}
-.box > .row{
-    justify-content:flex-start;
-
+    align-items: center;
 }
 
-
-
-.about1 > .about1-text{
-  padding: 20px 70px;
-  text-align: center;
+.box>.row {
+    justify-content: flex-start;
 }
 
-.about1-text > h1{
-    font-size: 40px;
-    font-weight: 900;
+.about1>.about1-text {
+    padding: 20px 70px;
+    text-align: center;
 }
 
-
-.about1-text > p{
+.about1-text>p {
     padding: 40px 40px;
-    
 }
 
-.icons-container > img{
+.icons-container>img {
     width: 50px;
-    padding: 0 10px 30px 0 ;
+    padding: 0 10px 30px 0;
 }
 
-.boxes{
+.boxes {
     margin: 40px;
 }
 
-
-.box{
-flex-basis: 1;
-width: 300px;
+.box {
+    flex-basis: 1;
+    width: 300px;
 }
 
-.box > h4{
-margin: 20px 0;
-font-weight: 900;
+.box>h4 {
+    margin: 20px 0;
+    font-weight: 900;
 }
 
-.box> p{
+.box>p {
     font-size: 17px;
     line-height: 25px;
 }
 
-.fet-btn-container{
+.fet-btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.fet-btn-container > .btn{
-
+.fet-btn-container>.btn {
     background-color: var(--rootcolor);
     color: whitesmoke;
     padding: 15px 20px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #7858B2;
     cursor: pointer;
+}
+
+.about2 {
+    background-color: #FAF8FE;
+}
+
+.about2>.text-sec {
+    text-align: center;
+    margin: 0 80px;
+}
+
+.ti-pair {
+    justify-content: space-around;
+    flex: 1;
+}
+
+.text-sec>p {
+    padding-top: 40px;
+    font-size: 23px;
+}
+
+.image-cont>img {
+    width: 600px;
+}
+
+.txt-cont {
+    padding: 0 120px;
+}
+
+.txt-cont>p {
+    padding-top: 30px;
+    line-height: 30px;
 }
