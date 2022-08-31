@@ -38,6 +38,10 @@ h5 {
     color: #53537F;
 }
 
+.Ballistic {
+    color: black;
+}
+
 h2 {
     font-size: 30px;
     font-weight: 900;
@@ -62,6 +66,14 @@ a {
 .btn:hover {
     background-color: #7858B2;
     cursor: pointer;
+}
+
+.images {
+    opacity: 0.5;
+}
+
+.images:hover {
+    opacity: 1;
 }
 
 
@@ -179,7 +191,18 @@ ul>.items {
     align-items: center;
 }
 
+.fet-btn-containers {
+    display: flex;
+    align-items: center;
+}
+
 .fet-btn-container>.btn {
+    background-color: var(--rootcolor);
+    color: whitesmoke;
+    padding: 15px 20px;
+}
+
+.fet-btn-containers>.btn {
     background-color: var(--rootcolor);
     color: whitesmoke;
     padding: 15px 20px;
@@ -220,4 +243,163 @@ ul>.items {
 .txt-cont>p {
     padding-top: 30px;
     line-height: 30px;
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 150px;
+}
+
+.flexings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#felx>div {
+    height: 50px;
+}
+
+.flexingss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.em {
+    font-size: 1em;
+}
+
+.ez {
+    width: 90%;
+    width: 50%;
+    background-color: transparent;
+    margin-left: 400px;
+}
+
+.flexing>div {
+    width: 130px;
+    margin: 10px;
+    text-align: center;
+}
+
+.flexing>div>img {
+    width: 100px;
+}
+
+.BBT {
+    height: 40px;
+    width: 120%;
+    background-color: rgba(127, 214, 115);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+.ncss {
+    margin-left: 35%;
+}
+
+.ctext {
+    font-size: 90%;
+    color: #000;
+    padding-left: 10%;
+    width: 200%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.plans {
+    background-color: #fff;
+    border-radius: 45px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.coll {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#felx {
+    width: 90%;
+    width: 50%;
+    background-color: transparent;
+    margin-left: 400px;
+    padding-bottom: none;
+    margin-bottom: none;
+    padding-top: none;
+    margin-top: none;
+}
+
+.undereditor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.htme {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.gcicle {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(127, 214, 115);
+    border-radius: 100%;
+}
+
+.pcicle {
+    height: 20px;
+    width: 20px;
+    background-color: #ce45b8;
+    border-radius: 100%;
+}
+
+.blan {
+    color: transparent;
+}
+
+.bcicle {
+    height: 20px;
+    width: 20px;
+    background-color: #2588e7;
+    border-radius: 100%;
+}
+
+table {
+    width: 100%;
+    margin: 50px;
+    text-align: left;
+    margin: 100px 30px;
+}
+
+.colorme {
+    background-color: rgba(223, 208, 250, .15);
+    border-color: black;
+    color: rgba(99, 65, 148, var(--text-opacity));
+    border: 0 solid #e2e8f0;
+}
+
+.table-data-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.gcicle {
+    margin-right: 10px;
 }
