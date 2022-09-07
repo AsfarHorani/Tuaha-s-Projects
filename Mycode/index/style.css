@@ -12,7 +12,9 @@ html {
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
-
+.text-center{
+    text-align: center;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -65,6 +67,10 @@ a {
 
 .btn:hover {
     background-color: #7858B2;
+    cursor: pointer;
+}
+.BBT:hover {
+    opacity: 0.75;
     cursor: pointer;
 }
 
@@ -139,6 +145,10 @@ ul>.items {
 .about1-c,
 .about2-c {
     margin: 80px 0;
+   
+}
+.gbg{
+     background-color: rgba(223,208,250,.15);
 }
 
 .row {
@@ -253,7 +263,22 @@ ul>.items {
     margin-right: 17%;
     margin-bottom: 150px;
 }
+.fleeing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 
+}
+.fleeingb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+
+}
 .flexings {
     display: flex;
     justify-content: space-between;
@@ -285,6 +310,11 @@ ul>.items {
     margin-left: 400px;
 }
 
+.fleeing>div {
+    
+    margin-top:50px;
+    
+}
 .flexing>div {
     width: 130px;
     margin: 10px;
@@ -303,6 +333,7 @@ ul>.items {
     color: #fff;
     border: none;
 }
+
 
 .ncss {
     margin-left: 35%;
@@ -381,9 +412,10 @@ ul>.items {
 
 table {
     width: 100%;
-    margin: 50px;
+   padding: 30px;
     text-align: left;
     margin: 100px 30px;
+
 }
 
 .colorme {
@@ -391,15 +423,84 @@ table {
     border-color: black;
     color: rgba(99, 65, 148, var(--text-opacity));
     border: 0 solid #e2e8f0;
+
 }
 
-.table-data-container {
+.table-data-container-1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+
+}
+.table-data-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+
 }
 
-.gcicle {
+.gcicle,.pcicle,.bcicle {
     margin-right: 10px;
+}
+
+.EndOfWebsite{
+width: 100%;
+margin-top: 200px;
+ text-align:center;
+}
+.ImNumber1{
+    
+ 
+    text-align: right;
+    display: flex;
+    flex-basis: 40%;
+}
+.ImNumber2{
+ 
+    text-align: left;
+         margin-left: 50px;
+  
+    display: flex;
+}
+.verycreativeclassname{
+    text-align: left;
+     margin-top: 6.25%;
+      margin-left:50px;
+}
+.verycreativeclassname>p{
+    margin-top: 20px;
+}
+.bestnameofaclassever{
+    margin-bottom: 300px;
+}
+.bestnameofaclassevera{
+    margin-bottom: 150px;
+}
+
+#view-more{
+    justify-content: flex-start;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #53537F;
+}
+
+.left-footer{
+    flex: 1;
+}
+
+.right-footer{
+    flex:1;
+}
+
+.my-contact{
+    color: #000;
+}
+
+.footer-list{
+    color: #53537F ;
 }
